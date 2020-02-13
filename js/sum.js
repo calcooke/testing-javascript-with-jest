@@ -4,4 +4,10 @@ function sum(a, b) {
 
 }
 
+function helper(){
+
+    console.log('Helper');
+
+}
+
 module.exports = sum
