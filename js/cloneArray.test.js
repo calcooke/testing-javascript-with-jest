@@ -6,5 +6,7 @@ test('Properly clones the array', () => {
 
     expect( cloneArray(array)).toEqual(array);
 
+    //To make sure the araay is in fact a copy and not the original array
+    expect( cloneArray(array)).not.toBe(array);
 
 })
